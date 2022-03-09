@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Raleway";
-  src: url("../fonts/Raleway-Regular.ttf");
+  src: url("fonts/Raleway-Regular.ttf");
 }
 @font-face {
   font-family: "Raleway-semibold";
-  src: url("../fonts/Raleway-SemiBold.ttf");
+  src: url("fonts/Raleway-SemiBold.ttf");
 }
 @font-face {
   font-family: "Raleway-bold";
-  src: url("../fonts/Raleway-Bold.ttf");
+  src: url("fonts/Raleway-Bold.ttf");
 }
 @keyframes fadeIn {
   100% {
@@ -767,102 +767,36 @@ section:nth-of-type(3) #gallery .mix:hover .button {
 section .flex-50-gt-sm {
   display: block;
 }
+
 section:nth-of-type(4) {
-  padding: 130px 0 100px 0;
-  text-align: left;
-}
-section:nth-of-type(4) .flex.row-gt-sm,
-section:nth-of-type(4) .flex.wrap {
-  align-items: flex-start;
-}
-section:nth-of-type(4) .gradient {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-section:nth-of-type(4) .blog-wrap {
-  cursor: pointer;
-  margin: 0 0 50px 0;
-  padding: 0 2px;
-  width: 100%;
-}
-section:nth-of-type(4) .blog-wrap #thumb-1 {
-  background: url("../img/blog-1.jpg") center center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-2 {
-  background: url("../img/blog-2.jpg") center center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-3 {
-  background: url("../img/blog-3.jpg") center center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-4 {
-  background: url("../img/blog-4.jpg") center center/cover;
-}
-section:nth-of-type(4) .blog-wrap .fade-wrap {
-  transition: opacity 0.3s;
-}
-section:nth-of-type(4) .blog-wrap.fade .fade-wrap {
-  opacity: 0.4;
-}
-section:nth-of-type(4) .blog-wrap.hover .fade-wrap .label {
-  color: #04c2c9;
-}
-section:nth-of-type(4) .label {
-  font-size: 12pt;
-  line-height: 14pt;
-  transition: color 0.3s ease-in-out;
-}
-section:nth-of-type(4) .thumb {
-  height: 150px;
-  margin: 0 0 15px 0;
-}
-section:nth-of-type(4) .date {
-  font-family: "Open sans";
-  font-size: 7pt;
-  margin: 5px 0 0 0;
-}
-section:nth-of-type(4) .bar {
-  background: #04c2c9;
-  height: 3px;
-  margin: 10px 0px;
-  width: 25%;
-}
-section:nth-of-type(4) .text {
-  font-size: 9pt;
-  line-height: 13pt;
-  max-height: 85px;
-}
-section:nth-of-type(5) {
   background: #252934;
   color: #fff;
   padding-top: 175px;
 }
-section:nth-of-type(5) .header {
+section:nth-of-type(4) .header {
   color: #fff;
 }
-section:nth-of-type(5) .header-bar {
+section:nth-of-type(4) .header-bar {
   background: #fff;
   margin: 25px 0 40px 0;
   width: 110px;
 }
-section:nth-of-type(5) .highlight {
+section:nth-of-type(4) .highlight {
   color: #04c2c9;
   font-weight: 600;
 }
-section:nth-of-type(5) svg {
+section:nth-of-type(4) svg {
   left: 0;
   position: absolute;
   top: 0;
 }
-section:nth-of-type(5) form {
+section:nth-of-type(4) form {
   margin: 40px auto 0 auto;
   min-width: 95%;
 }
-section:nth-of-type(5) input[type=text],
-section:nth-of-type(5) input[type=email],
-section:nth-of-type(5) textarea {
+section:nth-of-type(4) input[type=text],
+section:nth-of-type(4) input[type=email],
+section:nth-of-type(4) textarea {
   background: #1e242c;
   border: 0;
   box-sizing: border-box;
@@ -874,11 +808,11 @@ section:nth-of-type(5) textarea {
   padding: 10px 15px;
   width: 100%;
 }
-section:nth-of-type(5) textarea {
+section:nth-of-type(4) textarea {
   margin-bottom: 5px;
   min-height: 150px;
 }
-section:nth-of-type(5) .button {
+section:nth-of-type(4) .button {
   background: transparent;
   color: #fff;
   float: right;
@@ -887,20 +821,20 @@ section:nth-of-type(5) .button {
   outline: 0;
   padding: 10px 30px;
 }
-section:nth-of-type(5) .button:hover {
+section:nth-of-type(4) .button:hover {
   background: #04c2c9;
 }
-section:nth-of-type(5) #success {
+section:nth-of-type(4) #success {
   height: 0;
   overflow: hidden;
   position: relative;
   transition: height 0.25s;
   width: 100%;
 }
-section:nth-of-type(5) #success.expand {
+section:nth-of-type(4) #success.expand {
   height: 36px;
 }
-section:nth-of-type(5) #success div {
+section:nth-of-type(4) #success div {
   background: #04c986;
   border: 1px solid #157c59;
   color: #157051;
@@ -908,7 +842,7 @@ section:nth-of-type(5) #success div {
   font-weight: 600;
   padding: 5px 0;
 }
-section:nth-of-type(5) #close {
+section:nth-of-type(4) #close {
   cursor: pointer;
   font-size: 12pt;
   font-weight: 600;
@@ -1119,30 +1053,7 @@ footer .footnote .highlight {
   section:nth-of-type(3) #gallery .mix .card {
     height: 300px;
   }
-  section:nth-of-type(4) {
-    padding: 130px 0 180px 0;
-  }
-  section:nth-of-type(4) .label {
-    font-size: 16pt;
-    line-height: 22pt;
-  }
-  section:nth-of-type(4) .date {
-    font-size: 8.5pt;
-  }
-  section:nth-of-type(4) .bar {
-    margin: 15px 0px;
-  }
-  section:nth-of-type(4) .text {
-    font-size: 11pt;
-    line-height: 15pt;
-  }
-  section:nth-of-type(4) .blog-wrap {
-    width: 400px;
-  }
-  section:nth-of-type(4) .thumb {
-    height: 200px;
-  }
-  section:nth-of-type(5) form {
+  section:nth-of-type(4) form {
     min-width: 500px;
   }
 }
@@ -1258,17 +1169,6 @@ footer .footnote .highlight {
     font-size: 13pt;
     margin: 0 25px;
     padding: 0 40px;
-  }
-  section:nth-of-type(4) .blog-wrap {
-    margin: 0 0 50px 20px;
-    opacity: 0;
-    width: 400px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  section:nth-of-type(4) .blog-wrap {
-    margin: 0 0 50px 20px;
-    width: 270px;
   }
 }
 
