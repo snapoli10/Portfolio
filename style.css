@@ -921,6 +921,36 @@ footer .footnote .highlight {
     width: 100vw;
   }
 }
+@media screen and (max-width: 600px) {
+  nav .link-wrap {
+    display: block;
+  }
+  .modal {
+    width: 85vw;
+  }
+  .modal-wrap .close {
+    right: -4px;
+    top: 0;
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: #E60000;
+    font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+  }
+  section:nth-of-type(3) #gallery .mix {
+    display: none;
+    position: relative;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  section:nth-of-type(3) .filter-wrap {
+    
+  }
+}
+
 @media screen and (min-width: 600px) {
   body {
     font-size: 12pt;
